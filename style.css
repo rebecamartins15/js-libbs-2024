@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cabecalho {
+    display: flex;
+    height: 150px;
+    background-color: grey;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.img-logo {
+    width: 20%;
+}
+.img-logo img {
+    height: 140px;
+    width: 300px;
+}
+.titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    color: black;
+    width: 60%;
+}
+.cadastro{
+    width: 20%;
+}
+.cadastro a {
+    color: white;
+    display: block;
+    font-size: 20px;
+}
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.form-controller {
+    background-color: green;
+    width: 1000px;
+    height: 350px;
+    align-items: center;
+    text-align: center;
+}
+.cases {
+    margin-top: 20px;
+}
+.cases label {
+    display: block;
+    font-size: 30px;
+    color: black;
+}
+.cases input {
+    width: 600px;
+    height: 30px;
+}
+#btn {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    padding: 5px;
+}
